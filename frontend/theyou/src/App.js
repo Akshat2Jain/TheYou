@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Home from './pages/Home'
 
-const App = () => {
+
+function App() {
   return (
-    <a href='https://theyoucare.in/' target="_blank"><h1>Theyoucare.in</h1></a>
-  )
+    <>
+      <Home/>
+    </>
+  );
 }
 
-export default App
+export default App;
