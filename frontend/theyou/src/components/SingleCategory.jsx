@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   flex: 1;
@@ -7,9 +7,8 @@ const Container = styled.div`
   height: 70vh;
   position: relative;
   transition: 0.5s;
-  &:hover{
-    
-    cursor:pointer;
+  &:hover {
+    cursor: pointer;
     transform: scale(0.7);
   }
 `;
@@ -33,37 +32,36 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-    color:black;
-    margin-bottom: 50px;
-    margin-left:245px;
+  color: black;
+  margin-bottom: 50px;
+  margin-left: 245px;
 `;
 
 const Button = styled.button`
-    border:none;
-    padding: 10px;
-    margin-top:20rem;
-    background-color: white;
-    color:black;
-    cursor: pointer;
-    font-weight: 600;
-    &:hover{
-      background-color: grey;
-    }
+  border: none;
+  padding: 10px;
+  margin-top: 20rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  &:hover {
+    background-color: grey;
+  }
 `;
 
-
-const SingleCategory = ({item}) => {
+const SingleCategory = ({ item }) => {
   return (
     <>
-    <Container>
-    <Image src={item.img} />
-      <Info>
-        <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
-      </Info>
-    </Container>
+      <Container>
+        <Image src={item.img} />
+        <Info>
+          <Title>{item.title}</Title>
+          <Button>SHOP NOW</Button>
+        </Info>
+      </Container>
     </>
-  )
-}
+  );
+};
 
-export default SingleCategory
+export default SingleCategory;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { categories } from "../data";
+
+import { categories } from "../data/data";
 import SingleCategory from "./SingleCategory"
 
 const Container = styled.div`
