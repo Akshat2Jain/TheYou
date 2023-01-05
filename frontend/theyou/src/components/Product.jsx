@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+// import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const Info = styled.div`
@@ -61,19 +61,27 @@ const Icon = styled.div`
   }
 `;
 
+// const Title=styled.div`
+// font-size:2rem;
+// `
+
 const Product = ({ item }) => {
   return (
     <>
       <Container>
         <Circle />
         <Image src={item.img} />
+        
         <Info>
+        {/* <Title>
+          Product title
+        </Title> */}
           <Icon>
             <ShoppingCartOutlinedIcon />
           </Icon>
-          <Icon>
+          {/* <Icon>
             <SearchOutlinedIcon />
-          </Icon>
+          </Icon> */}
           <Icon>
             <FavoriteBorderOutlinedIcon />
           </Icon>
