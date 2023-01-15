@@ -86,9 +86,7 @@ import HomeIcon from '@mui/icons-material/Home';
         <Left>
           <Logo>TheYou.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          Inspired by the challenges faced by today’s youth in maintaining healthy hair and skin amidst the stress and pollution of the cities, the brand commits to provide products that are effective, yet affordable.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -119,10 +117,10 @@ import HomeIcon from '@mui/icons-material/Home';
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <HomeIcon style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <HomeIcon style={{marginRight:"10px"}}/> 4th Floor, Ideal Lab, TBI, Kiet Group of Institutions, Muradnagar, Ghaziabad, U.P.
           </ContactItem>
           <ContactItem>
-            <LocalPhoneOutlinedIcon style={{marginRight:"10px"}}/> +1 234 56 78
+            <LocalPhoneOutlinedIcon style={{marginRight:"10px"}}/> +91 81711 01987
           </ContactItem>
           <ContactItem>
             <MailOutlineIcon style={{marginRight:"10px"}} /> care@theyoucare.com
