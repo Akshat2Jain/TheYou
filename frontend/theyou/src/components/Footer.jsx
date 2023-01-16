@@ -120,7 +120,7 @@ import HomeIcon from '@mui/icons-material/Home';
             <HomeIcon style={{marginRight:"10px"}}/> 4th Floor, Ideal Lab, TBI, Kiet Group of Institutions, Muradnagar, Ghaziabad, U.P.
           </ContactItem>
           <ContactItem>
-            <LocalPhoneOutlinedIcon style={{marginRight:"10px"}}/> +91 81711 01987
+            <LocalPhoneOutlinedIcon style={{marginRight:"10px"}}/> +91 81711 01987  
           </ContactItem>
           <ContactItem>
             <MailOutlineIcon style={{marginRight:"10px"}} /> care@theyoucare.com
