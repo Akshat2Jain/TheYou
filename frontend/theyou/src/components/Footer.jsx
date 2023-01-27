@@ -7,9 +7,13 @@ import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import HomeIcon from '@mui/icons-material/Home';
   import styled from "styled-components";
   
+import { mobile } from "../responsive";
+
+  
   const Container = styled.div`
     display: flex;
-    padding-left:5rem;
+    padding-left:4rem;
+    ${mobile({ flexDirection: "column",paddingLeft:"1.5rem" })}
     
   `;
   
@@ -45,6 +49,7 @@ import HomeIcon from '@mui/icons-material/Home';
   const Center = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({ display: "none" })}
   `;
   
   const Title = styled.h3`
@@ -67,6 +72,7 @@ import HomeIcon from '@mui/icons-material/Home';
   const Right = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({ backgroundColor: "#fff8f8" })}
   
   `;
   
