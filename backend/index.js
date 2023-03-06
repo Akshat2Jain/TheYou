@@ -1,4 +1,4 @@
-// console.log("Hello22");
+ // console.log("Hello22");
 
 const express=require("express");
 const app=express();
@@ -6,6 +6,7 @@ const mongoose=require("mongoose");
 const dotenv=require("dotenv");
 const userRouter=require("./routes/user");
 // const userPostUser=require("./routes/user");
+const authRoute=require("./routes/auth");
 
 
 dotenv.config();
@@ -19,14 +20,15 @@ mongoose.connect
     console.log("Error")
 })
 
+
 // app.get("/api/test",()=>{
 //     console.log("test is successfull");  // we are making all route together in routes folder
 // })
 
 
 app.use(express.json())
-app.use("/api/user/",userRouter)
-// app.use("/api/user/",userRouter)
+app.use("/api/user",userRouter)
+app.use("/api/auth",authRoute)
 
 
 app.listen(process.env.port || 5000,()=>{
